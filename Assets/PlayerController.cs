@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
     	//salto
     	
 		if(jump){
-		//rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+		rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
 		rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 		jump =  false;
 		}
