@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2021.2.0a17\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker3
+AssetImportWorker21
 -projectPath
 C:/Users/gomez/AluxRun
 -logFile
-Logs/AssetImportWorker3.log
+Logs/AssetImportWorker21.log
 -srvPort
 60774
 Successfully changed project path to: C:/Users/gomez/AluxRun
