@@ -15,11 +15,11 @@ C:/Users/gomez/AluxRun
 -logFile
 Logs/AssetImportWorker12.log
 -srvPort
-60774
+50001
 Successfully changed project path to: C:/Users/gomez/AluxRun
 C:/Users/gomez/AluxRun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1202.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 275.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0a17 (96ee4da88f82)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/Resources/UnitySubsystems
@@ -35,4 +35,1045 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034853 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 227.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3531ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1486ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (228ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014612 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gomez\AluxRun\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gomez\AluxRun\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 289.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9792ms)
+		BeginReloadAssembly (441ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (8977ms)
+			LoadAssemblies (2484ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2585ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (3021ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (290ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (2116ms)
+				ProcessInitializeOnLoadMethodAttributes (334ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 2.20 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3684 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (228.4 KB). Loaded Objects now: 4142.
+Memory consumption went from 137.8 MB to 137.6 MB.
+Total: 218.696500 ms (FindLiveObjects: 0.931600 ms CreateObjectMapping: 0.748000 ms MarkObjects: 177.961000 ms  DeleteObjects: 39.051100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points
+  artifactKey: Guid(6874e674372e0427b9e9d276db8040e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points using Guid(6874e674372e0427b9e9d276db8040e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '59a1270b93ced797cc8ab154dc45627e') in 0.888047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030418 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(877e7b1688428a74fa9805010d877f0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PlayerController.cs using Guid(877e7b1688428a74fa9805010d877f0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2dac8ba48c9a736b2baaf2ef82f3317d') in 1.564499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Variant.spriteLib
+  artifactKey: Guid(aa15e8059e17f456bbda20c10e036963) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Variant.spriteLib using Guid(aa15e8059e17f456bbda20c10e036963) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1f93a3d74d22ce559d2ce20f7e3c964e') in 0.591549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Sprites/Fei.psb
+  artifactKey: Guid(11f8561e37dc241a2a5e29f925d39c10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Sprites/Fei.psb using Guid(11f8561e37dc241a2a5e29f925d39c10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bb0fdbdb8223f46e6c8750a3570c5cd3') in 0.262145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite
+  artifactKey: Guid(7c0e1d86180b983449318adc643710f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite using Guid(7c0e1d86180b983449318adc643710f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '02a0c595fd6d2101ec89836b7c643c40') in 0.032326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/sprits/correr 1.png
+  artifactKey: Guid(06a7ae9ccec169e4286cddc2f6f65646) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/correr 1.png using Guid(06a7ae9ccec169e4286cddc2f6f65646) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f88d3257d62fcd694ac47d6d386e5a6f') in 1.563075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(095cfe3d744aeef49b49d32ba597e2c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Player.cs using Guid(095cfe3d744aeef49b49d32ba597e2c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fd8c79e5b46c4191da4eb16a080b1a5f') in 0.027768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/DrawSceneLine.cs
+  artifactKey: Guid(407abe31766fa344cb4d4558f203cc4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/DrawSceneLine.cs using Guid(407abe31766fa344cb4d4558f203cc4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fcc7dc75f1c90e07101bcbf1c705b2de') in 0.015085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Animators
+  artifactKey: Guid(7264c407d12ef419b94832245ceb1450) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Animators using Guid(7264c407d12ef419b94832245ceb1450) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bb3e725cddaba049363e68c26113bac9') in 0.027552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000710 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation
+  artifactKey: Guid(26dbc80d228b87b4cb4cf00654037b5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation using Guid(26dbc80d228b87b4cb4cf00654037b5c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3632c97f8b8e89a0451993b3c1676084') in 0.042126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Sprites/Boris.png
+  artifactKey: Guid(5258496a2625b4729b9f47415dcf6055) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Sprites/Boris.png using Guid(5258496a2625b4729b9f47415dcf6055) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9dd5d711226f1c1b31145bd739e12d2d') in 0.094893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/plataformas
+  artifactKey: Guid(a48f3e52c42d8164480e8fbabdcc50a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/plataformas using Guid(a48f3e52c42d8164480e8fbabdcc50a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c7498478c998539a9d549761b216a04d') in 0.038494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Animation
+  artifactKey: Guid(488ece0affe954ef58f22291985cf156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Animation using Guid(488ece0affe954ef58f22291985cf156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '18d85a84bc28c8c5518293019bd26876') in 0.057255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Clips/Idle.anim
+  artifactKey: Guid(40f8ac755bcb141559184fbc0dae29b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Clips/Idle.anim using Guid(40f8ac755bcb141559184fbc0dae29b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '99d0ab6a276ff9fdc2f5d742ce945ed1') in 0.029700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/sprits/Player_caendo.anim
+  artifactKey: Guid(f3011016379b9e04391b987649971d93) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Player_caendo.anim using Guid(f3011016379b9e04391b987649971d93) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c413b21ddd70623c67b3d69839268621') in 0.083840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001713 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap
+  artifactKey: Guid(4998bce8f9545404b8e76d78eaa7b2cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap using Guid(4998bce8f9545404b8e76d78eaa7b2cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5065a7d357a5a1c06cc0a172a4d4422b') in 0.035810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/CheckGrounded.cs
+  artifactKey: Guid(c56d3238a2126f947a8eedada6cea85c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CheckGrounded.cs using Guid(c56d3238a2126f947a8eedada6cea85c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f60fa71917f2cc5a990780b30ccd95ef') in 0.009411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators
+  artifactKey: Guid(4dc8ba620eca4fe4fab6bf4bbf34ed1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators using Guid(4dc8ba620eca4fe4fab6bf4bbf34ed1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2c0e0aee93dc15f550d1d0fd45b8b2e5') in 0.020427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/3 Part Swap.unity
+  artifactKey: Guid(6b81dcde1626445489355116ace1bf07) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/3 Part Swap.unity using Guid(6b81dcde1626445489355116ace1bf07) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '449b802424488f539cafcfeb804edbc5') in 0.035234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr Full.spriteLib
+  artifactKey: Guid(6017a51b658824cf7bc2d76fba9be09e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr Full.spriteLib using Guid(6017a51b658824cf7bc2d76fba9be09e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '201245a2e1517f84844b9ac376d482be') in 0.345179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000973 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/_Simple.unity
+  artifactKey: Guid(bbec82fe3012545cbbac5974e00e8d54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/_Simple.unity using Guid(bbec82fe3012545cbbac5974e00e8d54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'da16b63198c3add9d707ba45788047c8') in 0.048931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000822 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Clips/Idle.anim
+  artifactKey: Guid(b439db7d3d1cb447eaafb70df281c322) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Clips/Idle.anim using Guid(b439db7d3d1cb447eaafb70df281c322) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '420172d3fee756b3cf1de7cf718425a7') in 0.016570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Animators
+  artifactKey: Guid(5259cdb15f5c646a78b883184f75a430) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Animators using Guid(5259cdb15f5c646a78b883184f75a430) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c7071384a3fb28804822d930e9ae8c1b') in 0.035773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Zombie1.spriteLib
+  artifactKey: Guid(97bf06b0eba5a4bc2b764304cfda4e74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Zombie1.spriteLib using Guid(97bf06b0eba5a4bc2b764304cfda4e74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bf5e19a27d02c532cc97af37748e4550') in 0.144956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Animation/Plunkah.controller
+  artifactKey: Guid(93fe5fbb3fef54347acb3f465c61822a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Animation/Plunkah.controller using Guid(93fe5fbb3fef54347acb3f465c61822a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aa15c21aa348617e2304dd23a35ca7be') in 0.020252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Clips/Boris Move.anim
+  artifactKey: Guid(51c998710c4a24557aa3ee88cb6ac410) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Clips/Boris Move.anim using Guid(51c998710c4a24557aa3ee88cb6ac410) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '46330cd378cdd7f651f32f35ae3e1b4d') in 0.049780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000982 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Skeleton.psb
+  artifactKey: Guid(99b0c777bbaec48919db0a7ef2f26c1a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Skeleton.psb using Guid(99b0c777bbaec48919db0a7ef2f26c1a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '06a1c1e064b4588a67db46b0e33c2ed8') in 0.252534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Material
+  artifactKey: Guid(31c25b66389eeba4a94fa782abf708d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Material using Guid(31c25b66389eeba4a94fa782abf708d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '21c4efaeb21e3f9d2969ace34d74a647') in 0.025699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Material/Deslizante.physicsMaterial2D
+  artifactKey: Guid(0b5d6bef2eac74043bc05a227eabee09) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Material/Deslizante.physicsMaterial2D using Guid(0b5d6bef2eac74043bc05a227eabee09) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bf216c67a5deb864949ec09584a39327') in 0.040789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004607 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/dialog.psb
+  artifactKey: Guid(55e08940ce2bd4e109732979817ab489) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/dialog.psb using Guid(55e08940ce2bd4e109732979817ab489) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'de9fb5ba781e46c0dba5796a536859a7') in 0.259805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr Poison.spriteLib
+  artifactKey: Guid(ad374211589f04817906e31ea5348fff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr Poison.spriteLib using Guid(ad374211589f04817906e31ea5348fff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8f9e429f9f1593665623e431fc9ab195') in 0.064952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Editor
+  artifactKey: Guid(290d2a9589a61f44a8efad4e3e75155e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Editor using Guid(290d2a9589a61f44a8efad4e3e75155e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3b47e5341328aa2df5fdfbe8f62702e2') in 0.040200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/dialog gray.spriteLib
+  artifactKey: Guid(fae9b48a42abf4fd49c5a6b6d16a2971) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/dialog gray.spriteLib using Guid(fae9b48a42abf4fd49c5a6b6d16a2971) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bfb7eae9b8d11f9cfa9bd7fbe84dbe53') in 0.128483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation
+  artifactKey: Guid(daf72f36da28f4356bc5566d31f68269) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation using Guid(daf72f36da28f4356bc5566d31f68269) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '992771f7a90a979e2a8fda6a6780be2e') in 0.051936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites
+  artifactKey: Guid(63ba0eef43d703d43b3840a58f8af87e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites using Guid(63ba0eef43d703d43b3840a58f8af87e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cbffd63736a2ae2b91fe3f48cc2f32e6') in 0.022805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Sprites
+  artifactKey: Guid(847c2ab79859342e5860db3f6cf0e303) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Sprites using Guid(847c2ab79859342e5860db3f6cf0e303) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c9250664c8c7a4da92ece556b093ae59') in 0.023400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/7 Runtime Swap.unity
+  artifactKey: Guid(2bdd37d077b54469ab527ff329fa696e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/7 Runtime Swap.unity using Guid(2bdd37d077b54469ab527ff329fa696e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c6ae89a4eb410ca8469b5b7a9d173b20') in 0.044944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Third-Party Notices.md
+  artifactKey: Guid(acff0aca42d7049178fd111d9d658a1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Third-Party Notices.md using Guid(acff0aca42d7049178fd111d9d658a1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '37c1ab0a432f4ad9a254a4832552d832') in 0.181488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Scripts
+  artifactKey: Guid(9537afc72dcb7be40a938f384ad5dac7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Scripts using Guid(9537afc72dcb7be40a938f384ad5dac7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '65862deba171022af712e210ffdc22c4') in 0.029027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/sprits/Player.anim
+  artifactKey: Guid(79634b13ebb1cec4789d26ae4c90f96c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Player.anim using Guid(79634b13ebb1cec4789d26ae4c90f96c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a4a7076eb282de50d4da1ebb4ef3f7d2') in 0.041819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Sprites
+  artifactKey: Guid(7c3a847a7bf354adb8b6ea944aacd79b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Sprites using Guid(7c3a847a7bf354adb8b6ea944aacd79b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a1a0f5f1cffb4ab207a9e79ea72d3d4d') in 0.161424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/sprits/fondo.png
+  artifactKey: Guid(d4f1423e13ed14e4a9a9988ecbb21f3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/fondo.png using Guid(d4f1423e13ed14e4a9a9988ecbb21f3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fecefab01ee81b6036bce0efb29bdb79') in 0.012069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/sprits/estatico_0.controller
+  artifactKey: Guid(cc55030f25f16a44084ffe803ed1abc0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/estatico_0.controller using Guid(cc55030f25f16a44084ffe803ed1abc0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b33f237eded9130c24db3ff887a081d5') in 0.040549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Sprites/Plunkah.png
+  artifactKey: Guid(9d235826445ca40a6b891614a381d426) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Sprites/Plunkah.png using Guid(9d235826445ca40a6b891614a381d426) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bc7aeb406378c317f362f6e1507d0c06') in 0.052082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Animators
+  artifactKey: Guid(f7db7ce0c0fbe4d9c877ae045d494817) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Animators using Guid(f7db7ce0c0fbe4d9c877ae045d494817) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f47391a3f972dc5392f3b2baa32d741a') in 0.029780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Scripts/AnimationSampleDependency.cs
+  artifactKey: Guid(d36f324eaf878644aa1f21428618c335) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Scripts/AnimationSampleDependency.cs using Guid(d36f324eaf878644aa1f21428618c335) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3674d8e7973f986dce65ce6ad346f7ad') in 0.061273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Sprites
+  artifactKey: Guid(627969a80e1ae44e4a0d339650eeb052) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Sprites using Guid(627969a80e1ae44e4a0d339650eeb052) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83fa836bdd5b5be9746f81e949557db5') in 0.011174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras
+  artifactKey: Guid(039db460db68f084c8480333bb51558e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras using Guid(039db460db68f084c8480333bb51558e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '08f3c2633bf8d6bfc527ef480765903c') in 0.040931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/_Character.unity
+  artifactKey: Guid(b3bef2256bdba4a31933e11aaa11ba63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/_Character.unity using Guid(b3bef2256bdba4a31933e11aaa11ba63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '03c9e6fd77bf893cb97f404d1c427001') in 0.033796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/PlataformaFalling.cs
+  artifactKey: Guid(5954844deed597c4e8d06690165eaac0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PlataformaFalling.cs using Guid(5954844deed597c4e8d06690165eaac0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3f48e1a76f96bb984a47b2c3e6d5d670') in 0.015076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/dialog gray.psb
+  artifactKey: Guid(cf70ecc1eea724c50b06d022abbc46cd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/dialog gray.psb using Guid(cf70ecc1eea724c50b06d022abbc46cd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e2c12f2fe93ccf138d876c021ad55dce') in 0.159717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Clips
+  artifactKey: Guid(deab183234b9a404881ba1793620f4ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Clips using Guid(deab183234b9a404881ba1793620f4ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ac8f3a8e0509a05570ea160056faaa6f') in 0.040700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/2 Animated Swap.unity
+  artifactKey: Guid(02da07aa48732be409add02bd90dd558) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/2 Animated Swap.unity using Guid(02da07aa48732be409add02bd90dd558) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8d2aa49e73891c06f8fae28e225b9d59') in 0.059900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/sprits/Materials
+  artifactKey: Guid(282911002112cb4478e1bf3c90d0ba0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Materials using Guid(282911002112cb4478e1bf3c90d0ba0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f4226e0dd71e14967b610db4db5ba255') in 0.042846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Scenes/MenuPrincipal.unity
+  artifactKey: Guid(9b1affcf5b53c1048b7ad05ad97f721a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/MenuPrincipal.unity using Guid(9b1affcf5b53c1048b7ad05ad97f721a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7931f00dafa6dc7be19c28c2ff603d27') in 0.027043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Primary.spriteLib
+  artifactKey: Guid(d2e71424ccdb6499ba0866d77095d62f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Primary.spriteLib using Guid(d2e71424ccdb6499ba0866d77095d62f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f2f2fb2d42421d27e2131ed5a3c970f1') in 0.173336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/scripts/comandomenu.cs
+  artifactKey: Guid(31cf97d79a5b56340975a675cadc8e26) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/scripts/comandomenu.cs using Guid(31cf97d79a5b56340975a675cadc8e26) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '954107771a383776b9dd9b3c50655c50') in 0.011410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Rikr.png
+  artifactKey: Guid(f147904358fc9c042beea56963e6b70a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Rikr.png using Guid(f147904358fc9c042beea56963e6b70a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b455c308356e9148aef80f337ec23fe6') in 0.018851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000812 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK
+  artifactKey: Guid(09865a8a3874a4a86b38ddeaf3b81d6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK using Guid(09865a8a3874a4a86b38ddeaf3b81d6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '054b0a18e98d1cd8ffcc48c765a0805d') in 0.012247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Zombie2.spriteLib
+  artifactKey: Guid(20a713646c14049da942d81ccedaa28e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Zombie2.spriteLib using Guid(20a713646c14049da942d81ccedaa28e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7e3c47e5b930895d8fc896332db127c5') in 0.072914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Prefab/KnightboyRig.prefab
+  artifactKey: Guid(280d661b060804aff9030710ce8e02ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Prefab/KnightboyRig.prefab using Guid(280d661b060804aff9030710ce8e02ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7de2ea0afcdf50a51d71a49fcd3759eb') in 0.020513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/4 Full Skin Swap.unity
+  artifactKey: Guid(90db0b4048401fa4a8099f2d7591ed29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/4 Full Skin Swap.unity using Guid(90db0b4048401fa4a8099f2d7591ed29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e721c4428d72ccd356c04d19ddd04d9e') in 0.077357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Animation/Plunkah.controller
+  artifactKey: Guid(50f7783907c884ea4b77c26c3b5227d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Animation/Plunkah.controller using Guid(50f7783907c884ea4b77c26c3b5227d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fa9d556148b66f165ae9eaa051509bd9') in 0.034373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/plataformas/plataforma3.png
+  artifactKey: Guid(2afe521a05459d841936e1dedfdba756) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/plataformas/plataforma3.png using Guid(2afe521a05459d841936e1dedfdba756) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd406f86d06c612fffaa8691f93b90fba') in 0.350705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Hero.spriteLib
+  artifactKey: Guid(6241dd6bf37494b78848dcd1d3fd0594) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Hero.spriteLib using Guid(6241dd6bf37494b78848dcd1d3fd0594) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '38067df90c0e8cd51562c29ae47d71f8') in 0.142378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/6 Skeleton Sharing.unity
+  artifactKey: Guid(0c537cc53bb0f4549807a212ec357a8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/6 Skeleton Sharing.unity using Guid(0c537cc53bb0f4549807a212ec357a8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '740c0cb4a3515efda44b7e66d93b8d40') in 0.023381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001001 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips
+  artifactKey: Guid(797cc3486a02b2a4a947ce142f25ed88) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips using Guid(797cc3486a02b2a4a947ce142f25ed88) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'afec7f23bee4e94311acb47a9b744950') in 0.033747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/LICENSE.md
+  artifactKey: Guid(1424233939c6b45849bd2aed0bf63770) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/LICENSE.md using Guid(1424233939c6b45849bd2aed0bf63770) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '062338209a1243ca4a94070491f0ed13') in 0.022961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/sprits/fondo 1.png
+  artifactKey: Guid(ec0446cb9c09ca04b99765321e1efc2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/fondo 1.png using Guid(ec0446cb9c09ca04b99765321e1efc2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dd4a6cbf54bfd3c771d75016f66341e2') in 0.122123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/PlataformaMovil.cs
+  artifactKey: Guid(a80cac256e2ee684782031b012455a9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PlataformaMovil.cs using Guid(a80cac256e2ee684782031b012455a9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f483c4f3b96916a346420831e9b29171') in 0.019001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Sprites/Plunkah.png
+  artifactKey: Guid(fafd3ffdc7e064d67a2d3277e916184c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Sprites/Plunkah.png using Guid(fafd3ffdc7e064d67a2d3277e916184c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd79ed25ed38baf37ed42059bdf8dbcea') in 0.041212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/Scavengers.anim
+  artifactKey: Guid(a99829266b714ad45b44af77dcdf4961) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/Scavengers.anim using Guid(a99829266b714ad45b44af77dcdf4961) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4bdd68f639f13d8c5a3e1da5eb7921d9') in 0.052240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/_IK.unity
+  artifactKey: Guid(75fb74dec28014e5087fdf1b49d76cf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/_IK.unity using Guid(75fb74dec28014e5087fdf1b49d76cf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9a030627d8ce2af77b147c4980556044') in 0.055997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Rikr Poison.png
+  artifactKey: Guid(cc7586140aa6bac4ab484e8dc1a41a4c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Rikr Poison.png using Guid(cc7586140aa6bac4ab484e8dc1a41a4c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bc991425dd609c140451d6edcc82e802') in 0.030168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/sprits/estatico.png
+  artifactKey: Guid(c5a46ed808a81f748b3840097a0ad3df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/estatico.png using Guid(c5a46ed808a81f748b3840097a0ad3df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2108c2d0a88484325d7fd274c1ee637b') in 0.171247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001022 seconds.
+  path: Assets/sprits/estatico_3.controller
+  artifactKey: Guid(b4eb4621409554b40a229addb3d0bdfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/estatico_3.controller using Guid(b4eb4621409554b40a229addb3d0bdfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bcd52c12a58a293d05f186f3988e6af7') in 0.024198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Animators/Fei.controller
+  artifactKey: Guid(613a990525198436aae8b4ef9a284f63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Animators/Fei.controller using Guid(613a990525198436aae8b4ef9a284f63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5a73862547f6557cf8b38029c426bb19') in 0.066950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000950 seconds.
+  path: Assets/sprits/Player_air.anim
+  artifactKey: Guid(f68eab04513b86f429796f84d50b45f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Player_air.anim using Guid(f68eab04513b86f429796f84d50b45f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2ca99b9968ab25046cbea32155ea1934') in 0.011494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Editor/Unity.2D.Animation.Samples.Editor.asmdef
+  artifactKey: Guid(da3c53b869fb6d54db6c4cc838632d66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Editor/Unity.2D.Animation.Samples.Editor.asmdef using Guid(da3c53b869fb6d54db6c4cc838632d66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '61367e1609de51f7e642a23b7aeaa98f') in 0.026143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Animation/Plunkah_Idle.anim
+  artifactKey: Guid(f63695ff90975410eba3ef25fc72ae2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Animation/Plunkah_Idle.anim using Guid(f63695ff90975410eba3ef25fc72ae2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aebb724f4e4ea8974de0ed8a36d448f6') in 0.040008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000978 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_idle.anim
+  artifactKey: Guid(bbf9ad9ef6ce9463d9161013db1a1bf8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_idle.anim using Guid(bbf9ad9ef6ce9463d9161013db1a1bf8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a7f6f294e2d9ae529c3cc13815b1dded') in 0.026521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Sprites/Fei's Staff.png
+  artifactKey: Guid(144ca0ad4121a41fc9918767e6717faf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Sprites/Fei's Staff.png using Guid(144ca0ad4121a41fc9918767e6717faf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a329972a1e319153ba34dd871413e428') in 0.183698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators/Rikr.controller
+  artifactKey: Guid(698995a1f48c8a34d873540aa75279f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators/Rikr.controller using Guid(698995a1f48c8a34d873540aa75279f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '18965fc42a041f4c0ba80e07c79f53cc') in 0.009221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/plataformas/plataforma4.png
+  artifactKey: Guid(6159d17993f958f4b84020978e69b677) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/plataformas/plataforma4.png using Guid(6159d17993f958f4b84020978e69b677) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'feb4c727fac9ce01ffcab14fd8c5af3d') in 0.119248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Animation
+  artifactKey: Guid(901e341d6748d4310981770a22a37017) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/Animation using Guid(901e341d6748d4310981770a22a37017) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'defc5caa0c95188e4a0689045b4ecc58') in 0.027323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Animators
+  artifactKey: Guid(b6a8273287dcd445ea27e90a94ce92f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Animators using Guid(b6a8273287dcd445ea27e90a94ce92f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bfc9cb9d53e3d75a2bdd32e8da11c0b9') in 0.035541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime
+  artifactKey: Guid(8aad5cf35c32aa94f8103a94f3a3d078) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime using Guid(8aad5cf35c32aa94f8103a94f3a3d078) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd152a955a3314b0fe6092d6a46116ef8') in 0.038979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001177 seconds.
+  path: Assets/sprits/estatico_0 1.controller
+  artifactKey: Guid(cd4d465ccc73fc74e8f96dd87c85407f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/estatico_0 1.controller using Guid(cd4d465ccc73fc74e8f96dd87c85407f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '02b4c942e4d63d332420437ec54060d0') in 0.033760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/1 Flipbook Animation Swap.unity
+  artifactKey: Guid(ef90b1940d7215f47961ffe5af00718e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/1 Flipbook Animation Swap.unity using Guid(ef90b1940d7215f47961ffe5af00718e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9762ea5ff0a5db4bf316ffb03b88570d') in 0.042432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/sprits/Player_correr.anim
+  artifactKey: Guid(888d36c3f9aa3914f8c3d7a118f6ffbf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Player_correr.anim using Guid(888d36c3f9aa3914f8c3d7a118f6ffbf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0c9a1d3b1d4c69784b90e566da0956d0') in 0.011519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Variant.psb
+  artifactKey: Guid(6d8d9c573c01747b19625c8ab9dee609) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Variant.psb using Guid(6d8d9c573c01747b19625c8ab9dee609) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '781f51458721ee964cadd71f138f473a') in 0.104837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/sprits/fondo 1 (4).controller
+  artifactKey: Guid(87a324fd6c76e144f8fec3614aa6b081) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/fondo 1 (4).controller using Guid(87a324fd6c76e144f8fec3614aa6b081) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '980c28a27e46b69f3a19a1ba4d77b016') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation
+  artifactKey: Guid(90eb430299f354fa9b6cc6575b8fb4a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation using Guid(90eb430299f354fa9b6cc6575b8fb4a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1ec35ae683011afd20eb90d072a7ff22') in 0.021695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation
+  artifactKey: Guid(2a28a862484ff4ce09b4d136ba41256f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation using Guid(2a28a862484ff4ce09b4d136ba41256f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5de8b183ca65992773d7b0b9771c28e4') in 0.029624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Clips
+  artifactKey: Guid(06789e097499b42ff82848bf7d7fc027) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Clips using Guid(06789e097499b42ff82848bf7d7fc027) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '88b9cfc1995b4e2574d11016fa748ead') in 0.040737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001063 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_die.anim
+  artifactKey: Guid(0127b9997ae57498995b076a39a3e2ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_die.anim using Guid(0127b9997ae57498995b076a39a3e2ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '186d6e40e8bea66dce38fa44a3af9d7e') in 0.031035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples
+  artifactKey: Guid(9ee6fe358cf71fa4ab024b8d35783eb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples using Guid(9ee6fe358cf71fa4ab024b8d35783eb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '24c572a6b5483490a2029846de29cc6d') in 0.097703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001205 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr Rage.spriteLib
+  artifactKey: Guid(9ae8142ca4abb4790b429041e2c796a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr Rage.spriteLib using Guid(9ae8142ca4abb4790b429041e2c796a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cdf28e8f9bb4fc64807244f2e09cb112') in 0.128682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000745 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Rikr Rage.png
+  artifactKey: Guid(62aab9d0b7eea6d46a98bc6bfb5f255e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Rikr Rage.png using Guid(62aab9d0b7eea6d46a98bc6bfb5f255e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '80feabe23a031b8942c06bbe0b86a6ce') in 0.020789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators/Knightboy.controller
+  artifactKey: Guid(0494a7441760c4c00a1b00115f4bdd49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators/Knightboy.controller using Guid(0494a7441760c4c00a1b00115f4bdd49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '837d8585bffb13ae5ed16ac6d30bfc5e') in 0.018399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/_Multiple Skinned Sprites.unity
+  artifactKey: Guid(9d3817f9c1b3046fc861964adcf88d70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/_Multiple Skinned Sprites.unity using Guid(9d3817f9c1b3046fc861964adcf88d70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7ab76298349c9ba515afca3f6f034970') in 0.011248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/Unity.2D.Animation.Samples.Runtime.asmdef
+  artifactKey: Guid(d6d31008b62a0a04e96e897fe1381b63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/Unity.2D.Animation.Samples.Runtime.asmdef using Guid(d6d31008b62a0a04e96e897fe1381b63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4a112f47b9690cbc571707f88b991612') in 0.019099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Scavengers_SpriteSheet.png
+  artifactKey: Guid(6b750765a9e73934383c8285cef51320) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Scavengers_SpriteSheet.png using Guid(6b750765a9e73934383c8285cef51320) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd38a218fded1031de4618b49c58dd3a2') in 0.099002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_run.anim
+  artifactKey: Guid(30ef38ade93864c49a4fb653fa2db1d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_run.anim using Guid(30ef38ade93864c49a4fb653fa2db1d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4e91b9fde656635ce3e1294f89e1fbc7') in 0.018227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs
+  artifactKey: Guid(580a66ff8fa584a42812990cccd3c52c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs using Guid(580a66ff8fa584a42812990cccd3c52c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0fef2b2e415fccedfe63368abbe52ca3') in 0.041427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001132 seconds.
+  path: Assets/Samples/2D Animation/6.0.1
+  artifactKey: Guid(29e8b82c3337e824d8e72e747545f86c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1 using Guid(29e8b82c3337e824d8e72e747545f86c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b1e2e2dad07d1300c214186f956722e9') in 0.044896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/README.md
+  artifactKey: Guid(18c8a7bc27a0f46f6bf836c5cbb36ee4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/README.md using Guid(18c8a7bc27a0f46f6bf836c5cbb36ee4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'df7be974a94e1e999e7d565712fd7b37') in 0.013648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators/Dialog.controller
+  artifactKey: Guid(6473c261cc3854fa898c6e4ac9e0bd87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Animators/Dialog.controller using Guid(6473c261cc3854fa898c6e4ac9e0bd87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aadd66033a2b8de08414809a7ae9a464') in 0.020281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001205 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/_Single Skinned Sprite.unity
+  artifactKey: Guid(a3670583e5a1841f8838aeb9ae6bbfe3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/2 Single Skinned Sprite/_Single Skinned Sprite.unity using Guid(a3670583e5a1841f8838aeb9ae6bbfe3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1c9d9e78aeb2d2a2958127fa8fe58662') in 0.050948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Animators/Boris.controller
+  artifactKey: Guid(6f66e40006a974303ba7695bfdda0ad4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Animators/Boris.controller using Guid(6f66e40006a974303ba7695bfdda0ad4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '60f97af64667971025bbfff26672cfbb') in 0.019378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites
+  artifactKey: Guid(501a55918b0995941ab8889d86766c1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites using Guid(501a55918b0995941ab8889d86766c1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fc3411f21b19231640fa1501dc37fca2') in 0.029916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Clips
+  artifactKey: Guid(38bc32ca756e3405d8cd6632c8319659) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Clips using Guid(38bc32ca756e3405d8cd6632c8319659) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7ade12d4a90e5501a51beb80971f38af') in 0.019270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001010 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Clips
+  artifactKey: Guid(7521df5fc686c49e3a02581a6dde41ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Animation/Clips using Guid(7521df5fc686c49e3a02581a6dde41ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83ff5bf73869e19a9c6d1e325956e81e') in 0.044369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001198 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Editor/BuildAssetBundle.cs
+  artifactKey: Guid(e174580fa8885d948b2444d9f28a0a42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Editor/BuildAssetBundle.cs using Guid(e174580fa8885d948b2444d9f28a0a42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a9aaeb65ab45d465c3ca165c14077324') in 0.034678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation
+  artifactKey: Guid(2b45b80d139d1422abacea75147884c7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation using Guid(2b45b80d139d1422abacea75147884c7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '76ac322c60c438eb53e0e63e6c0d17ce') in 0.056643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/RuntimeSwap.cs
+  artifactKey: Guid(93f9e29002b0e4b2c86564e20121f659) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/RuntimeSwap.cs using Guid(93f9e29002b0e4b2c86564e20121f659) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b2cca5429574b180c093d9c8d41c95ac') in 0.052174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001014 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts
+  artifactKey: Guid(f89821e9789546440a093b1e933cfee1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts using Guid(f89821e9789546440a093b1e933cfee1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1e34a8187effbd0330573953666ff68d') in 0.033856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/sprits
+  artifactKey: Guid(6fd1693cc6e45da47960323b0431f90f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits using Guid(6fd1693cc6e45da47960323b0431f90f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fc635c3036bc1315ee6785304f49bc02') in 0.040649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Material/fondo.mat
+  artifactKey: Guid(1ed61c61e339a9d4192260b5a5720251) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Material/fondo.mat using Guid(1ed61c61e339a9d4192260b5a5720251) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '28bf71a4ac6583d5bdd9eed7c65af2ed') in 0.119777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000957 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Sprites
+  artifactKey: Guid(0ab0b9a0b5e50438795d09c56605365a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Sprites using Guid(0ab0b9a0b5e50438795d09c56605365a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83470ff6bb2800add6eee88974563a98') in 0.018746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_hit.anim
+  artifactKey: Guid(1a273e4c9ad7b4820af7aea75f2c12a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_hit.anim using Guid(1a273e4c9ad7b4820af7aea75f2c12a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e6b25908a8ec6310f4152a8ad6dd02aa') in 0.070776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Animators/Root.controller
+  artifactKey: Guid(90e03b4bd842943b9b34bedb20ffd417) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Animators/Root.controller using Guid(90e03b4bd842943b9b34bedb20ffd417) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '66031c7718eb701b3df517ffcb8bbd13') in 0.015943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple
+  artifactKey: Guid(b0fec17e40a4f054ca640cf23fa20f51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple using Guid(b0fec17e40a4f054ca640cf23fa20f51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0a206cf333f2d3de817bb99d54c82158') in 0.040556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_attack01.anim
+  artifactKey: Guid(adcde069a4475441587b60197e494847) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/knightboy_attack01.anim using Guid(adcde069a4475441587b60197e494847) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7738cb68ab052384b12c14bb0b2b2822') in 0.016342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/sprits/suelo.png
+  artifactKey: Guid(62ffcad0f0b4d094cb1eb7ac0bec6fbd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/suelo.png using Guid(62ffcad0f0b4d094cb1eb7ac0bec6fbd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '478f50491e024c6d1c5b1d240d466c94') in 0.146664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000971 seconds.
+  path: Assets/Samples/2D Animation
+  artifactKey: Guid(d8c757f409933d04990a04a16691f3c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation using Guid(d8c757f409933d04990a04a16691f3c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '39a96b212bdc201ec5db4add1fe00332') in 0.054456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000965 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs
+  artifactKey: Guid(db5dd3ca3a4e1944bb86b0768715466e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs using Guid(db5dd3ca3a4e1944bb86b0768715466e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '72c9c556668f1abd1949ac01e2674fc8') in 0.014100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Animation/Plunkah_Idle.anim
+  artifactKey: Guid(48066f5914dbd463c915d4791d4921dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Animation/Plunkah_Idle.anim using Guid(48066f5914dbd463c915d4791d4921dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4130dc8fa26703435f720e437ff16acd') in 0.015606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr.spriteLib
+  artifactKey: Guid(d8459eddc2e68485d85536d108cfdda5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/Rikr.spriteLib using Guid(d8459eddc2e68485d85536d108cfdda5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4466480b44a389421cda20600e4b9ca5') in 0.061852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Assets/Scenes/Nivel 03.unity
+  artifactKey: Guid(387b0c73f5cbaae4ab6b93dac7a07f1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Nivel 03.unity using Guid(387b0c73f5cbaae4ab6b93dac7a07f1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '806d7adc76eaa8fe0a3cb848b07db0d9') in 0.080347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001047 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Clips/Boris Animation.anim
+  artifactKey: Guid(01e67f8d86419418d8026a727ad65e0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Animation/Clips/Boris Animation.anim using Guid(01e67f8d86419418d8026a727ad65e0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9b0a55feca793c3ee2e0a207fc903ffe') in 0.025069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000992 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Sprites/Rikr.png
+  artifactKey: Guid(036e5d1dec89b4a449390d4d1288067f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Sprites/Rikr.png using Guid(036e5d1dec89b4a449390d4d1288067f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cfab53a7d045d9986f87da78ca42517a') in 0.035513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Sprites/Fei.psb
+  artifactKey: Guid(629172793891c4bfea23e66eddf0a88b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character/Sprites/Fei.psb using Guid(629172793891c4bfea23e66eddf0a88b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '298ab5e31b6db8aa5d5f3f8bc8fa74c6') in 0.197685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs
+  artifactKey: Guid(17ccce387fbc2a64a90ae83539e4afc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs using Guid(17ccce387fbc2a64a90ae83539e4afc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1fac2f9de8cea239dd0ed88f5ff4949d') in 0.011149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/Talk.anim
+  artifactKey: Guid(3e21b869ea6c14777882b3916a0929da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/Talk.anim using Guid(3e21b869ea6c14777882b3916a0929da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1b9b9a19277090c90bacc942b7d19b41') in 0.009108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/witchgirl.psb
+  artifactKey: Guid(ef96b05e8a0ca481cbc3fb1270c1d842) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/witchgirl.psb using Guid(ef96b05e8a0ca481cbc3fb1270c1d842) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c880d1fcaa3aa2cc38f59e1c82f4ad67') in 0.193215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Scripts/Unity.2D.Animation.Samples.Dependency.asmdef
+  artifactKey: Guid(c5bc1414ba3021e499d8e7853f35ad49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Scripts/Unity.2D.Animation.Samples.Dependency.asmdef using Guid(c5bc1414ba3021e499d8e7853f35ad49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '18a05d85dba20dd294af2e354e943a1d') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/Idle.anim
+  artifactKey: Guid(9b2cd1aa90c02a7428b34dc5060cbecb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Animation/Clips/Idle.anim using Guid(9b2cd1aa90c02a7428b34dc5060cbecb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0b542a638082aba97d2cf118e1864584') in 0.022848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Sprites
+  artifactKey: Guid(0b0fa4ac071974f819d81c073c675f48) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/1 Simple/Sprites using Guid(0b0fa4ac071974f819d81c073c675f48) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fc58cc78870130f0223de1dffb902dc1') in 0.023572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/sprits/correr.png
+  artifactKey: Guid(1811c3e1c999f94418de09127d7f5e3c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/correr.png using Guid(1811c3e1c999f94418de09127d7f5e3c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bf3cc05b4094624ed3408d5b9d30bd6e') in 0.167493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000966 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/4 Character
+  artifactKey: Guid(440cfc23c2f9dc141993c6d7c83c2408) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/4 Character using Guid(440cfc23c2f9dc141993c6d7c83c2408) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '262e4a0dd11db9e0c31380d09125d695') in 0.071335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006444 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/5 DLC Swap.unity
+  artifactKey: Guid(b5d076b17c233524fb6a5e4264adcf54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/5 DLC Swap.unity using Guid(b5d076b17c233524fb6a5e4264adcf54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '957fae3f05cdbeae0a651e936279a21b') in 0.024855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001259 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Prefab
+  artifactKey: Guid(99459e68ef3704dbc9d246450a02edd4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Prefab using Guid(99459e68ef3704dbc9d246450a02edd4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e385ee2735c6b888cd87feebbb15306c') in 0.044593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(501bc34c00ea8b94b992ac2e16c8dbf3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples using Guid(501bc34c00ea8b94b992ac2e16c8dbf3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd821f5a3f46ee7f3bb13ad50aeaf79f3') in 0.019686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/sprits/Player_idie.anim
+  artifactKey: Guid(4a75239bcf3bfb449b57987e1c55d2bc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Player_idie.anim using Guid(4a75239bcf3bfb449b57987e1c55d2bc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2e8deb45e20ab92fc6772cb1d3db9c1d') in 0.012644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001129 seconds.
+  path: Assets/sprits/Materials/fondo.mat
+  artifactKey: Guid(2561f108e5736f747ab5c3692893024d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/Materials/fondo.mat using Guid(2561f108e5736f747ab5c3692893024d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a83704690d89aee354b928a7b2445b9b') in 0.063037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Clips/Idle.anim
+  artifactKey: Guid(d1f65e916a20343669931677e2419041) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Clips/Idle.anim using Guid(d1f65e916a20343669931677e2419041) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6aec47e38239fb59fbddafcc19fcf2c9') in 0.012670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Animators/Rikr.controller
+  artifactKey: Guid(f32f4a24ec2a8441686d1e76b406b531) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/3 Multiple Skinned Sprites/Animation/Animators/Rikr.controller using Guid(f32f4a24ec2a8441686d1e76b406b531) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6938809fa38331fac3610b605041f2e8') in 0.026185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/plataformas/plataforma1.png
+  artifactKey: Guid(31c6a660488b3b048a361fba687f20c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/plataformas/plataforma1.png using Guid(31c6a660488b3b048a361fba687f20c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6133b85842d52b317e405d4d9b2cf31f') in 0.047743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Sprites
+  artifactKey: Guid(5c76285a9fffe40a79c9b13e59856d14) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/IK/Sprites using Guid(5c76285a9fffe40a79c9b13e59856d14) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aab0719fddfaadc3dd3bc15b6715036e') in 0.044927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/_Attachment Points.unity
+  artifactKey: Guid(1040033e863024d56ba10ed791e4eb37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/_Attachment Points.unity using Guid(1040033e863024d56ba10ed791e4eb37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3cc174152db2fa6223232ace8e266dfd') in 0.013633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library
+  artifactKey: Guid(0a915fb32ef6de145913da59a0262f8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library using Guid(0a915fb32ef6de145913da59a0262f8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3039e3d8eccd86a3c65c60bcd157bb6d') in 0.048818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/plataformas/plataforma2.png
+  artifactKey: Guid(52f909969ec9dac4b8db135d34d2f65c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/plataformas/plataforma2.png using Guid(52f909969ec9dac4b8db135d34d2f65c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '763c4aa6a32c9e0474e17e1221eda452') in 0.066837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/sprits/suelo1.jpg
+  artifactKey: Guid(3e1dab13fead275438e38bec6fc43a7b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/sprits/suelo1.jpg using Guid(3e1dab13fead275438e38bec6fc43a7b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '84107b84dc3001ef5cd5e93029946a96') in 0.125459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Animators/Fei.controller
+  artifactKey: Guid(948bdd5e35d6d4f84be7a921cbbb7a8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/Extras/Attachment Points/Animation/Animators/Fei.controller using Guid(948bdd5e35d6d4f84be7a921cbbb7a8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0a86ca8eb48bb88d09ccc410c1bd83c8') in 0.013990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/dialog.spriteLib
+  artifactKey: Guid(63bb7440b64164fb29d43b0278ee5a99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprite Library/dialog.spriteLib using Guid(63bb7440b64164fb29d43b0278ee5a99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3a141a969b460c21345184d108ad73fc') in 0.086059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Primary.psb
+  artifactKey: Guid(8f519a0f7487d41cebc10ff177ee1436) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Samples/2D Animation/6.0.1/Samples/5 SpriteSwap/Sprites/Primary.psb using Guid(8f519a0f7487d41cebc10ff177ee1436) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4ea2881a938f6aa0da4f20826fcad422') in 0.146027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/CamaraFollow.cs
+  artifactKey: Guid(12aa71c52e1f6af4ca51329bf652e81f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CamaraFollow.cs using Guid(12aa71c52e1f6af4ca51329bf652e81f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '66b4944600ee49503e655c2e5724c64e') in 0.065761 seconds 
