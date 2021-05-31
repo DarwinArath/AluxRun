@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 	public float speed = 2f;
 	public bool grounded;
 	public float jumpPower = 6.5f;
+    public bool atacar = false;
 
 	private Rigidbody2D rb2d;
 	private Animator anim;
@@ -66,7 +67,13 @@ public class PlayerController : MonoBehaviour
 		rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 		jump =  false;
 		}
+
+        //atacar
     	
+        if(Input.GetKeyDown("space")){
+            anim.SetTrigger("Atacar");
+        }
+        
     }
 
     //METODO PARA VERICAR QUE EL PERSONAJE ESTE CAENDO, SI ES ASI QUE REGRESA A LA PLATAFORMA
@@ -74,4 +81,5 @@ public class PlayerController : MonoBehaviour
     void OnBecameInvisible(){
     	transform.position = new Vector3(0,0,0);
     }
+
 }

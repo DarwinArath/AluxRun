@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06a7ae9ccec169e4286cddc2f6f65646
+guid: b0d09701df4ea93489440586c69e32bf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -92,33 +92,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: correr_0
+      name: attack_sprite_sheeet_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 476
-        width: 133
-        height: 141
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7969a7f086abc774ca7c8d1997c8bf07
-      internalID: 85966390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_1
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 476
-        width: 132
+        x: 86
+        y: 730
+        width: 126
         height: 139
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -127,20 +106,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82feaffaacf7c834894a04488b4c2c97
-      internalID: 684572898
+      spriteID: 144afe41e21badd4c84135f0de8ee53f
+      internalID: -713012126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_2
+      name: attack_sprite_sheeet_1
       rect:
         serializedVersion: 2
-        x: 323
-        y: 475
-        width: 129
-        height: 140
+        x: 390
+        y: 722
+        width: 151
+        height: 150
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1899db1241aa054d8716ceec2f7f305
-      internalID: 48164531
+      spriteID: 5d24b41f779fb1d4b8914720b32cd426
+      internalID: -56607590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_3
+      name: attack_sprite_sheeet_2
       rect:
         serializedVersion: 2
-        x: 482
-        y: 476
-        width: 121
-        height: 140
+        x: 686
+        y: 730
+        width: 169
+        height: 150
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6f486025f96c3408303033471af088
-      internalID: 1227704107
+      spriteID: 322fb81d608ee1a48b08759ad4b2fbaa
+      internalID: -1094329796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_4
+      name: attack_sprite_sheeet_3
       rect:
         serializedVersion: 2
-        x: 646
-        y: 476
-        width: 112
-        height: 142
+        x: 982
+        y: 726
+        width: 296
+        height: 148
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0b448cb3388c2a40b9bad238661dc8e
-      internalID: 1232938088
+      spriteID: f10de90a48c66a442a0b99f101b5be55
+      internalID: 294758757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_5
+      name: attack_sprite_sheeet_4
       rect:
         serializedVersion: 2
-        x: 30
-        y: 320
-        width: 103
-        height: 144
+        x: 1301
+        y: 726
+        width: 297
+        height: 148
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6bd5fe898e1bde4da2c9dad25758a82
-      internalID: 746012177
+      spriteID: 8435497f8360ee34496255292ed7eb73
+      internalID: 961628438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_6
+      name: attack_sprite_sheeet_5
       rect:
         serializedVersion: 2
-        x: 187
-        y: 320
-        width: 101
-        height: 145
+        x: 22
+        y: 406
+        width: 296
+        height: 148
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5a90f7ad1179b4db87a83e67967a6a
-      internalID: -855919436
+      spriteID: 4f20b0e1649094843a33abe26c2d12a1
+      internalID: -2054554109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_7
+      name: attack_sprite_sheeet_6
       rect:
         serializedVersion: 2
-        x: 341
-        y: 320
-        width: 102
-        height: 143
+        x: 346
+        y: 393
+        width: 193
+        height: 151
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66a71bdb5d800a648b4e68c2ee732fa2
-      internalID: 1336943029
+      spriteID: c70335f0ba9fb1140b0b0e815c66fbd2
+      internalID: -231776182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_8
+      name: attack_sprite_sheeet_7
       rect:
         serializedVersion: 2
-        x: 496
-        y: 320
-        width: 102
-        height: 141
+        x: 665
+        y: 393
+        width: 194
+        height: 151
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,19 +253,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac4c5f23af31ae44ba28ba140eb3d3c5
-      internalID: -1109656009
+      spriteID: 96f07a80985c7684f81ba8eaa5c6fea6
+      internalID: 6595869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: correr_9
+      name: attack_sprite_sheeet_8
       rect:
         serializedVersion: 2
-        x: 655
-        y: 320
-        width: 102
+        x: 986
+        y: 393
+        width: 193
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8383c87eb1e66cf45a084858b22cbf6a
+      internalID: 1572110577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_sprite_sheeet_9
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 408
+        width: 180
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da6f60e644b2b142ae05065c9245e5b
+      internalID: -1124878051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_sprite_sheeet_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 90
+        width: 130
         height: 139
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -295,134 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197df8988557ded40b664e0b85d4f50b
-      internalID: -1286303003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_10
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 163
-        width: 102
-        height: 140
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e795702faf1d534c98b0cd87f6f42a9
-      internalID: 983546654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_11
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 164
-        width: 104
-        height: 140
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fbc022a681027649a71fe3d51830d99
-      internalID: -1211565547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_12
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 164
-        width: 113
-        height: 142
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d926e8cf60754cd458562a444efbea19
-      internalID: -492776934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_13
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 164
-        width: 120
-        height: 144
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7fb3a28e30bb6044aada667634be5c0
-      internalID: -1259173138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_14
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 164
-        width: 128
-        height: 145
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24757a8fcd4cf5e4c96218761fc0f487
-      internalID: 1328513499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: correr_15
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 8
-        width: 132
-        height: 143
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9401a5096f3203c498db6bccddb7d58a
-      internalID: 1283717579
+      spriteID: 36b8733b949041d419f260a2045bf82f
+      internalID: -41813893
       vertices: []
       indices: 
       edges: []
@@ -438,22 +333,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      correr_11: -1211565547
-      correr_8: -1109656009
-      correr_5: 746012177
-      correr_9: -1286303003
-      correr_7: 1336943029
-      correr_6: -855919436
-      correr_14: 1328513499
-      correr_10: 983546654
-      correr_13: -1259173138
-      correr_1: 684572898
-      correr_4: 1232938088
-      correr_15: 1283717579
-      correr_0: 85966390
-      correr_2: 48164531
-      correr_3: 1227704107
-      correr_12: -492776934
+      attack_sprite_sheeet_7: 6595869
+      attack_sprite_sheeet_9: -1124878051
+      attack_sprite_sheeet_3: 294758757
+      attack_sprite_sheeet_6: -231776182
+      attack_sprite_sheeet_0: -713012126
+      attack_sprite_sheeet_8: 1572110577
+      attack_sprite_sheeet_2: -1094329796
+      attack_sprite_sheeet_10: -41813893
+      attack_sprite_sheeet_1: -56607590
+      attack_sprite_sheeet_5: -2054554109
+      attack_sprite_sheeet_4: 961628438
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
