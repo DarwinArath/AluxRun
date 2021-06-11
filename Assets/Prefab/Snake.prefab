@@ -42,7 +42,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -87,7 +87,8 @@ GameObject:
   - component: {fileID: 2871980495896989313}
   - component: {fileID: 2871980495896989312}
   - component: {fileID: 2871980495896989315}
-  - component: {fileID: 2871980495896989314}
+  - component: {fileID: 1627477845}
+  - component: {fileID: 8030314663384449802}
   m_Layer: 7
   m_Name: Snake
   m_TagString: Untagged
@@ -254,7 +255,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &2871980495896989314
+--- !u!95 &1627477845
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2871980495896989341}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3fb86082905ac484c882ccb295ba687f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8030314663384449802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,7 +283,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2871980495896989341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9e073005d2f1974a88c005e0a5c556b, type: 3}
+  m_Script: {fileID: 11500000, guid: b97bd5998b5a46a4d90046c62e8609f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 1
