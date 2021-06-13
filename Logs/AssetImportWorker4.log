@@ -1,6 +1,6 @@
 Using pre-set license
 Built from 'trunk' branch; Version is '2021.2.0a17 (96ee4da88f82) revision 9891405'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 3965 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'es' Physical Memory: 3965 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,25 +15,7 @@ C:/Users/gomez/AluxRun
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50528
+54611
 Successfully changed project path to: C:/Users/gomez/AluxRun
 C:/Users/gomez/AluxRun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 325.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.0a17 (96ee4da88f82)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gomez/AluxRun/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
-    Vendor:   Intel
-    VRAM:     1982 MB
-    Driver:   23.20.16.4973
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
-Begin MonoManager ReloadAssembly
