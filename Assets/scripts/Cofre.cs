@@ -27,7 +27,7 @@ public class Cofre : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D col){
         if(col.CompareTag("Player")){
-            if(Input.GetKeyDown(KeyCode.E) && !itemPicked){
+            if(Input.GetKeyDown("space") && !itemPicked){
                 anim.Play("Cofre_Open");
                 StartCoroutine(GetChestItems());
             }

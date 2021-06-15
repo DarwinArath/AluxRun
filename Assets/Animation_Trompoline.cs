@@ -11,7 +11,7 @@ public class Animation_Trompoline : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D col){
         if (col.transform.CompareTag("Player")){
             col.gameObject.GetComponent<Rigidbody2D>().velocity = (Vector2.up * jumpForce);
-            anim.Play("Animation_Trompoline");
+            anim.Play("Trompoline_Jump");
         }
     } 
 }

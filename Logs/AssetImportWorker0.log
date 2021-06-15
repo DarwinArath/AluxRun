@@ -15,11 +15,11 @@ C:/Users/gomez/AluxRun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58561
+50667
 Successfully changed project path to: C:/Users/gomez/AluxRun
 C:/Users/gomez/AluxRun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 179.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 791.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0a17 (96ee4da88f82)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a17/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
