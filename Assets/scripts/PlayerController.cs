@@ -12,12 +12,16 @@ public class PlayerController : MonoBehaviour
 
 	private Rigidbody2D rb2d;
 	private Animator anim;
+	private SpriteRenderer spr;
 	private bool jump;
+	private bool movement = true;
+
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+		spr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -43,6 +47,7 @@ public class PlayerController : MonoBehaviour
     	
     	//metodo pararealizar desplazamieto
     	float h = Input.GetAxis("Horizontal");
+		if(!movement) h =0;
 
     	rb2d.AddForce(Vector2.right * speed * h);
 
@@ -82,4 +87,29 @@ public class PlayerController : MonoBehaviour
     	transform.position = new Vector3(0,0,0);
     }
 
+	//Codigo para provocar salto al colisionar con otro objeto (una serpiente)
+
+	public void EnemyJump(){
+		jump = true;
+	}	
+
+	public void EnemyKnockBack(float enemyPosX){
+	jump = true;
+
+	float side = Mathf.Sign(enemyPosX = transform.position.x);
+	rb2d.AddForce(Vector2.left*side*jumpPower, ForceMode2D.Impulse);
+
+		movement = false;
+		Invoke("EnableMovement", 0.7f);
+
+		spr.color = Color.red;
+	}
+
+	void EnableMovement(){
+		movement = true;
+		
+		spr.color = Color.white;
+
+	}
 }
+

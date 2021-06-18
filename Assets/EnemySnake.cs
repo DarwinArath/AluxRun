@@ -41,9 +41,13 @@ public class EnemySnake : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if(col.gameObject.tag == "Player"){
+            
             float yOffset = 0.04f;
             if(transform.position.y < col.transform.position.y){
+                col.SendMessage("EnemyJump");
                 Destroy(gameObject);
+            }else{
+                col.SendMessage("EnemyKnockBack", transform.position.x);
             }
         }
     }
