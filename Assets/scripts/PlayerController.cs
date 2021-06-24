@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class PlayerController : MonoBehaviour
 	public bool grounded;
 	public float jumpPower = 6.5f;
     public bool atacar = false;
-
+    
 	private Rigidbody2D rb2d;
 	private Animator anim;
 	private SpriteRenderer spr;
@@ -18,11 +19,12 @@ public class PlayerController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {	
+
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 		spr = GetComponent<SpriteRenderer>();
-    }
+	}
 
     // Update is called once per frame
     void Update()
@@ -94,6 +96,9 @@ public class PlayerController : MonoBehaviour
 	}	
 
 	public void EnemyKnockBack(float enemyPosX){
+	
+	//healthbar.SendMessage("TakeDamage", danio);
+
 	jump = true;
 
 	float side = Mathf.Sign(enemyPosX = transform.position.x);
@@ -111,5 +116,22 @@ public class PlayerController : MonoBehaviour
 		spr.color = Color.white;
 
 	}
+
+	/*private void OnCollisionEnter2D(Collision2D col){
+		if(col.gameObject.tag == "Enemy"){
+		vidaslider.value -= daño;
+		}
+	}*/
+	
+	/*private void OnTriggerEnter2D(Collider2D col){
+		if(col.CompareTag("Enemy")){
+			curHealth -= col.GetComponent<EnemySnake>().danio;
+			healthBar.fillAmount = curHealth / maxHealth;
+
+			if(curHealth <= 0){
+				GameOver.show ();
+			}
+		}
+	}*/
 }
 

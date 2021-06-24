@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1699579667556782806
+--- !u!1 &297537037
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6807683736765432744}
-  - component: {fileID: 2188575414620628161}
+  - component: {fileID: 297537038}
+  - component: {fileID: 297537039}
   m_Layer: 0
-  m_Name: Colliner Snake
-  m_TagString: Untagged
+  m_Name: Collider Enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6807683736765432744
+--- !u!4 &297537038
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699579667556782806}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 297537037}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1391983, y: 0.57630134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2871980495896989318}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2188575414620628161
+--- !u!60 &297537039
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699579667556782806}
+  m_GameObject: {fileID: 297537037}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -57,24 +57,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.066479325, y: 0.36027098}
-      - {x: -0.05589342, y: 0.40655208}
-      - {x: -0.17629361, y: 0.37307525}
-      - {x: -0.38284302, y: 0.24096751}
-      - {x: -0.372437, y: 0.36378407}
-      - {x: -0.26611948, y: 0.5961268}
-      - {x: -0.18011427, y: 0.80706143}
-      - {x: -0.17476511, y: 1.040036}
-      - {x: -0.39782858, y: 1.2118309}
-      - {x: -0.58939415, y: 0.97034264}
-      - {x: -0.46524477, y: 0.7725768}
-      - {x: -0.32657743, y: 0.865664}
-      - {x: -0.46322918, y: 0.5080035}
-      - {x: -0.56054425, y: 0.2778058}
-      - {x: -0.5484419, y: 0.080794096}
-      - {x: -0.43795365, y: -0.008193135}
-      - {x: 0.58778536, y: -0.008193016}
-      - {x: 0.6152271, y: 0.20568484}
+    - - {x: -0.20883226, y: -0.07637572}
+      - {x: -0.03496051, y: 0.39636683}
+      - {x: -0.29647708, y: 0.6150998}
+      - {x: -0.42051846, y: 0.3870373}
+      - {x: -0.35892576, y: -0.5073384}
+      - {x: 0.62419474, y: -0.52814364}
+      - {x: 0.66060734, y: -0.37826514}
+      - {x: -0.19324112, y: -0.3359509}
 --- !u!1 &2871980495896989341
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +81,7 @@ GameObject:
   - component: {fileID: 8030314663384449802}
   m_Layer: 7
   m_Name: Snake
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,7 +98,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6807683736765432744}
+  - {fileID: 297537038}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -288,3 +278,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 1
   speed: -8
+  "da\xF1oEnemygo": 50
