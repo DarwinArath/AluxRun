@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Plantform
   - Platform
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -46,4 +47,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2439714839
+    locked: 0
+  - name: Enemy
+    uniqueID: 376604837
     locked: 0

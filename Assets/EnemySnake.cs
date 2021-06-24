@@ -6,6 +6,8 @@ public class EnemySnake : MonoBehaviour
 {
     public float maxSpeed = 1f;
     public float speed = 1f;
+    public string enemyName;
+    public float healthPoints; 
 
     private Rigidbody2D rb2d;
     // Start is called before the first frame update
