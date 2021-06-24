@@ -7,11 +7,19 @@ public class EnemySnake : MonoBehaviour
     public float maxSpeed = 1f;
     public float speed = 1f;
 
+    //public float danio;
+
+     public int dañoEnemygo = 10;
+    GameObject Player;
+    Vida playerVida;
+
     private Rigidbody2D rb2d;
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();   
+        rb2d = GetComponent<Rigidbody2D>(); 
+        Player = GameObject.FindGameObjectWithTag("Player");
+        playerVida = Player.GetComponent<Vida>();  
     }
 
     // Update is called once per frame
@@ -44,11 +52,13 @@ public class EnemySnake : MonoBehaviour
             
             float yOffset = 0.04f;
             if(transform.position.y < col.transform.position.y){
-                col.SendMessage("EnemyJump");
-                Destroy(gameObject);
+                //col.SendMessage("EnemyJump");
+                //Destroy(gameObject);
+                playerVida.TakeDaño(dañoEnemygo);
             }else{
                 col.SendMessage("EnemyKnockBack", transform.position.x);
             }
         }
     }
+
 }
