@@ -144,6 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee8fc2e5511c1f84f9a557223781dca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chestItem: {fileID: 1206365256555181206, guid: a5bf29174e952574ea01065df9b6475b, type: 3}
+  chestItem: {fileID: 2163722704440807970, guid: 212a9cccf273ea548924bc4ccd0c22ee, type: 3}
   chestDelay: 0.1
-  itemAmount: 4
+  itemAmount: 1
