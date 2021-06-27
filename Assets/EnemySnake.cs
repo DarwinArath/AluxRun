@@ -49,9 +49,25 @@ public class EnemySnake : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if(col.gameObject.tag == "Player"){
+                //float xOffset = 0.0f;
             
-            float yOffset = 0.04f;
-            if(transform.position.y < col.transform.position.y){
+                playerVida.TakeDaño(dañoEnemygo);
+            
+        }
+    }
+}
+    /*
+        private void OnTriggerEnter(Collider col){
+    if(col.CompareTag("Player")){
+        playerVida.TakeDaño(dañoEnemygo);
+       }
+    }
+
+     void OnTriggerEnter2D(Collider2D col){
+        if(col.gameObject.tag == "Player"){
+            
+            //float yOffset = 0.04f;
+            if(transform.position.x < col.transform.position.x){
                 //col.SendMessage("EnemyJump");
                 //Destroy(gameObject);
                 playerVida.TakeDaño(dañoEnemygo);
@@ -60,5 +76,6 @@ public class EnemySnake : MonoBehaviour
             }
         }
     }
+    */
 
-}
+

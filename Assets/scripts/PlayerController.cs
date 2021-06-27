@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
 	
 	//healthbar.SendMessage("TakeDamage", danio);
 
-	jump = true;
+	//jump = true;
 
 	float side = Mathf.Sign(enemyPosX = transform.position.x);
 	rb2d.AddForce(Vector2.left*side*jumpPower, ForceMode2D.Impulse);

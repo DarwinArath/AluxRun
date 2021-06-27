@@ -21,6 +21,7 @@ public class GameOver : MonoBehaviour
     }
 
     public static void show(){
+        
         GameOver.GameOverStatic.gameObject.SetActive (true);  
     }
 }
