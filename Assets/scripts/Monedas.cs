@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 
 public class Monedas : MonoBehaviour
 {   
+    public AudioSource clip;
    
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class Monedas : MonoBehaviour
         if (col.CompareTag("Player")){
         GetComponent<SpriteRenderer>().enabled = false;
         Destroy(gameObject, 0.5f);
+        clip.Play();
         }
     }
 }
