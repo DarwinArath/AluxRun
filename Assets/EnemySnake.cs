@@ -6,6 +6,8 @@ public class EnemySnake : MonoBehaviour
 {
     public float maxSpeed = 1f;
     public float speed = 1f;
+    public string enemyName;
+    public float healthPoints; 
 
     //public float danio;
 

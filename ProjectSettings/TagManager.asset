@@ -8,6 +8,7 @@ TagManager:
   - Plantform
   - Platform
   - Enemy
+  - Weapon
   layers:
   - Default
   - TransparentFX
