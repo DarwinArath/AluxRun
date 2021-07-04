@@ -29,6 +29,24 @@ public class MnuPausa : MonoBehaviour
         public void Audio(){
             clip.Play();
         }
+
+        public void Lv1(){
+        SceneManager.LoadScene("Nivel 01");
+        Time.timeScale = 1;
+            optionsPanel.SetActive(false);
+    }
+
+    public void Lv2(){
+        SceneManager.LoadScene("Nivel 02");
+        Time.timeScale = 1;
+            optionsPanel.SetActive(false);
+    }
+
+    public void Lv3(){
+        SceneManager.LoadScene("Nivel 03");
+        Time.timeScale = 1;
+            optionsPanel.SetActive(false);
+    }
         
     
 }

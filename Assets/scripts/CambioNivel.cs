@@ -7,7 +7,7 @@ public class CambioNivel : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D col){
         if(col.gameObject.tag == "Player"){
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 }

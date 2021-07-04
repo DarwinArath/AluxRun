@@ -13,6 +13,7 @@ public class comandomenu : MonoBehaviour
 
     //metodo para comenzar el juego
     public void CargarEscena(string NombreDeEscena){
+        Time.timeScale = 1;
     	SceneManager.LoadSceneAsync(NombreDeEscena);
     }
 

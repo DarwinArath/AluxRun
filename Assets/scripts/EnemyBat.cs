@@ -17,6 +17,7 @@ public class EnemyBat : MonoBehaviour
     GameObject Player;
     Vida playerVida;
 
+    
 
     public Transform player;
     public Rigidbody2D rb2d;
